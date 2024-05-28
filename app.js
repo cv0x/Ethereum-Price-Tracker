@@ -33,7 +33,7 @@ async function showData() {
     ethPriceElement.innerText = currentPriceUSD + " $";
     //stores data on whether btc is in the plus for the last 7 days
     const priceChangePercentage7d = data.market_data.price_change_percentage_7d;
-    ethPriceChangePercentage7dElement.innerText = priceChangePercentage7d;
+    ethPriceChangePercentage7dElement = priceChangePercentage7d;
   }
 }
 showData();
@@ -42,7 +42,7 @@ setInterval(showData, 60000);
 
 //chang interactive color according price change percentage 7d
 const getInteractiveColor = () => {
-  return ethPriceChangePercentage7dElement > 0 ? "red" : "green";
+  return ethPriceChangePercentage7dElement > 0 ? "green" : "red";
 };
 
 document.addEventListener("DOMContentLoaded", function () {

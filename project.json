@@ -1,0 +1,314 @@
+{
+	"contentrating": "Everyone",
+	"description": "Ethereum Interactive Price & Graph Tracker\r\n\r\nReal-time Ethereum price wallpaper with a 7-day price chart. Customize font, colors, shadow, size and position directly in the Wallpaper Engine properties panel.\r\n\r\n#ethereum #ethtracker #ethprice #eth #crypto",
+	"file": "index.html",
+	"general": {
+		"properties": {
+			"font": {
+				"order": 0,
+				"text": "Font",
+				"type": "combo",
+				"value": "Poppins",
+				"options": [
+					{
+						"label": "Poppins",
+						"value": "Poppins"
+					},
+					{
+						"label": "Roboto",
+						"value": "Roboto"
+					},
+					{
+						"label": "Playfair",
+						"value": "Playfair Display"
+					},
+					{
+						"label": "Poetsen",
+						"value": "Poetsen One"
+					},
+					{
+						"label": "Cursive",
+						"value": "cursive"
+					},
+					{
+						"label": "Sans-serif",
+						"value": "sans-serif"
+					},
+					{
+						"label": "Monospace",
+						"value": "monospace"
+					}
+				]
+			},
+			"pricecolormode": {
+				"order": 1,
+				"text": "Price color",
+				"type": "combo",
+				"value": "static",
+				"options": [
+					{
+						"label": "Custom color",
+						"value": "static"
+					},
+					{
+						"label": "Interactive (7d trend)",
+						"value": "interactive"
+					},
+					{
+						"label": "Ethereum Blue",
+						"value": "#627eea"
+					},
+					{
+						"label": "Ether Indigo",
+						"value": "#3c3c94"
+					},
+					{
+						"label": "Merge Purple",
+						"value": "#8a63d2"
+					},
+					{
+						"label": "Diamond Silver",
+						"value": "#c0c0c0"
+					},
+					{
+						"label": "Gwei Gold",
+						"value": "#ffd700"
+					},
+					{
+						"label": "Gas Fee Red",
+						"value": "#ff1e1e"
+					},
+					{
+						"label": "Staking Green",
+						"value": "#00c853"
+					},
+					{
+						"label": "Smart Contract Cyan",
+						"value": "#00e5ff"
+					},
+					{
+						"label": "Ultrasound Orange",
+						"value": "#ff8c42"
+					},
+					{
+						"label": "Whitepaper White",
+						"value": "#ffffff"
+					},
+					{
+						"label": "Cold Wallet Black",
+						"value": "#000000"
+					}
+				]
+			},
+			"pricecolor": {
+				"order": 2,
+				"text": "Custom price color",
+				"type": "color",
+				"value": "0 0 0",
+				"condition": "pricecolormode.value == 'static'"
+			},
+			"shadowmode": {
+				"order": 3,
+				"text": "Logo & card shadow",
+				"type": "combo",
+				"value": "interactive",
+				"options": [
+					{
+						"label": "Off",
+						"value": "off"
+					},
+					{
+						"label": "Custom color",
+						"value": "color"
+					},
+					{
+						"label": "Interactive (7d trend)",
+						"value": "interactive"
+					},
+					{
+						"label": "Ethereum Blue",
+						"value": "#627eea"
+					},
+					{
+						"label": "Ether Indigo",
+						"value": "#3c3c94"
+					},
+					{
+						"label": "Merge Purple",
+						"value": "#8a63d2"
+					},
+					{
+						"label": "Diamond Silver",
+						"value": "#c0c0c0"
+					},
+					{
+						"label": "Gwei Gold",
+						"value": "#ffd700"
+					},
+					{
+						"label": "Gas Fee Red",
+						"value": "#ff1e1e"
+					},
+					{
+						"label": "Staking Green",
+						"value": "#00c853"
+					},
+					{
+						"label": "Smart Contract Cyan",
+						"value": "#00e5ff"
+					},
+					{
+						"label": "Ultrasound Orange",
+						"value": "#ff8c42"
+					},
+					{
+						"label": "Whitepaper White",
+						"value": "#ffffff"
+					},
+					{
+						"label": "Cold Wallet Black",
+						"value": "#000000"
+					}
+				]
+			},
+			"shadowcolor": {
+				"order": 4,
+				"text": "Custom shadow color",
+				"type": "color",
+				"value": "0.50196 0.50196 0.50196",
+				"condition": "shadowmode.value == 'color'"
+			},
+			"logocolor": {
+				"order": 5,
+				"text": "Logo color",
+				"type": "color",
+				"value": "0.38431 0.49412 0.91765"
+			},
+			"cardcolor": {
+				"order": 6,
+				"text": "Card color",
+				"type": "color",
+				"value": "0.6902 0.61961 0.6"
+			},
+			"backgroundmode": {
+				"order": 7,
+				"text": "Background",
+				"type": "combo",
+				"value": "#4281a4,#48a9a6",
+				"options": [
+					{
+						"label": "Ocean Teal",
+						"value": "#4281a4,#48a9a6"
+					},
+					{
+						"label": "Ethereum Night",
+						"value": "#0f0c29,#302b63"
+					},
+					{
+						"label": "Merge Purple",
+						"value": "#41295a,#2f0743"
+					},
+					{
+						"label": "Cosmic Fusion",
+						"value": "#ff00cc,#333399"
+					},
+					{
+						"label": "Sunset",
+						"value": "#ff7e5f,#feb47b"
+					},
+					{
+						"label": "Aurora",
+						"value": "#00c9ff,#92fe9d"
+					},
+					{
+						"label": "Royal Blue",
+						"value": "#536976,#292e49"
+					},
+					{
+						"label": "Crimson Night",
+						"value": "#870000,#190a05"
+					},
+					{
+						"label": "Gwei Gold",
+						"value": "#f7971e,#ffd200"
+					},
+					{
+						"label": "Mint Forest",
+						"value": "#134e5e,#71b280"
+					},
+					{
+						"label": "Deep Space",
+						"value": "#000000,#434343"
+					},
+					{
+						"label": "Custom colors",
+						"value": "custom"
+					}
+				]
+			},
+			"backgroundcolor1": {
+				"order": 8,
+				"text": "Background color 1",
+				"type": "color",
+				"value": "0.25882 0.50588 0.64314",
+				"condition": "backgroundmode.value == 'custom'"
+			},
+			"backgroundcolor2": {
+				"order": 9,
+				"text": "Background color 2",
+				"type": "color",
+				"value": "0.28235 0.66275 0.65098",
+				"condition": "backgroundmode.value == 'custom'"
+			},
+			"showchart": {
+				"order": 10,
+				"text": "Show 7-day chart",
+				"type": "bool",
+				"value": true
+			},
+			"scale": {
+				"order": 11,
+				"text": "Size (%)",
+				"type": "slider",
+				"min": 50,
+				"max": 250,
+				"value": 100,
+				"editable": true
+			},
+			"offsetx": {
+				"order": 12,
+				"text": "Horizontal position",
+				"type": "slider",
+				"min": -45,
+				"max": 45,
+				"value": 0,
+				"editable": true
+			},
+			"offsety": {
+				"order": 13,
+				"text": "Vertical position",
+				"type": "slider",
+				"min": -45,
+				"max": 45,
+				"value": 0,
+				"editable": true
+			},
+			"schemecolor": {
+				"order": 20,
+				"text": "ui_browse_properties_scheme_color",
+				"type": "color",
+				"value": "0.38431 0.49412 0.91765"
+			}
+		}
+	},
+	"ratingsex": "none",
+	"ratingviolence": "none",
+	"tags": [
+		"Technology"
+	],
+	"title": "Ethereum price & graph wallpaper",
+	"type": "Web",
+	"visibility": "public",
+	"workshopid": "3252688975",
+	"workshopurl": "steam://url/CommunityFilePage/3252688975"
+}
